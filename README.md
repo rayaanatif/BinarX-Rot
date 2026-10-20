@@ -10,6 +10,7 @@ build guide (SatNOGS_Rotator_Build_Guide.docx).
 | `parts/` | One STL per printed part. File names match the build guide. |
 | `3mf-and-stl/BinarX_Rot_All_Parts.3mf` | All parts laid out together, for slicing in Bambu Studio / OrcaSlicer. |
 | `3mf-and-stl/BinarX_Rot_All_Parts.stl` | All parts combined in a single STL. |
+| `docs/SatNOGS_Rotator_Build_Guide.docx` | Build guide: hardware assembly, Arduino code, and SatNOGS setup. |
 
 ## Parts
 
@@ -38,3 +39,13 @@ Total: 15 printed parts.
 - 2 servos (same model for azimuth and elevation), with the horn and screws supplied with them
 
 Parts marked COTS (commercial off-the-shelf) are bought, not printed.
+
+## Licences
+
+This repo uses a different licence for each kind of content:
+
+| Content | Licence | File |
+| --- | --- | --- |
+| Printable parts (`parts/`, `3mf-and-stl/`) | CERN-OHL-S-2.0 | [LICENSE-HARDWARE.md](LICENSE-HARDWARE.md) |
+| Arduino code | MIT | [LICENSE-CODE.txt](LICENSE-CODE.txt) |
+| Build guide (`docs/`) | CC BY-SA 4.0 | [LICENSE-GUIDE.md](LICENSE-GUIDE.md) |
