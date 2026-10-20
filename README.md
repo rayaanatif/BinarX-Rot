@@ -1,5 +1,9 @@
 # BinarX Rotator: 3D Printed Parts
 
+![Assembled BinarX rotator with enclosure](docs/images/rotator-enclosed.png)
+
+![BinarX rotator without the top casing, showing the gears](docs/images/rotator-unenclosed.png)
+
 3D-printable parts for the BinarX satellite rotator. Assembly and software setup are in the
 build guide (SatNOGS_Rotator_Build_Guide.docx).
 
