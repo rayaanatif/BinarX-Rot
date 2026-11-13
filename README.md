@@ -15,6 +15,8 @@ build guide (SatNOGS_Rotator_Build_Guide.docx).
 | `3mf-and-stl/BinarX_Rot_All_Parts.3mf` | All parts laid out together, for slicing in Bambu Studio / OrcaSlicer. |
 | `3mf-and-stl/BinarX_Rot_All_Parts.stl` | All parts combined in a single STL. |
 | `docs/SatNOGS_Rotator_Build_Guide.docx` | Build guide: hardware assembly, Arduino code, and SatNOGS setup. |
+| `docs/DS3225_270_Upgrade_Guide.docx` | Upgrade for DS3225 270° servos: power, calibration, and checks for 360° motion without overshoot. |
+| `arduino/rotator_270.ino` | Arduino sketch for DS3225 270° servos (replaces the 180° sketch in the build guide). |
 
 ## Parts
 
@@ -43,6 +45,10 @@ Total: 15 printed parts.
 - 2 servos (same model for azimuth and elevation), with the horn and screws supplied with them
 
 Parts marked COTS (commercial off-the-shelf) are bought, not printed.
+
+## Servo upgrade
+
+If you use DS3225 270° servos, follow `docs/DS3225_270_Upgrade_Guide.docx` and use `arduino/rotator_270.ino`. Power the servos from a separate 6 V supply, not from the Arduino.
 
 ## Licences
 
