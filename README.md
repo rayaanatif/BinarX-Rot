@@ -16,6 +16,7 @@ build guide (SatNOGS_Rotator_Build_Guide.docx).
 | `3mf-and-stl/BinarX_Rot_All_Parts.stl` | All parts combined in a single STL. |
 | `docs/SatNOGS_Rotator_Build_Guide.docx` | Build guide: hardware assembly, Arduino code, and SatNOGS setup. |
 | `docs/DS3225_270_Upgrade_Guide.docx` | Upgrade for DS3225 270° servos: power, calibration, and checks for 360° motion without overshoot. |
+| `arduino/rotator_180.ino` | Arduino sketch for standard 180° servos (the sketch in the build guide). |
 | `arduino/rotator_270.ino` | Arduino sketch for DS3225 270° servos (replaces the 180° sketch in the build guide). |
 
 ## Parts
